@@ -1,0 +1,8 @@
+a = int(input())
+b = int(input())
+c = int(input())
+
+p = (a + b + c) / 2
+
+S = float(p*(p - a)*(p - b)*(p - c))
+print(S**0.5)

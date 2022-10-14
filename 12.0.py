@@ -1,0 +1,7 @@
+st1 = set([int(i) for i in input().split()])
+st2 = set([int(i) for i in input().split()])
+st3 = st1.intersection(st2)
+print(len(st3), "Кол-во")
+print(*sorted(st3), "Объединение")
+st4 = st1.difference(st2)
+print(*sorted(st4))
