@@ -1,0 +1,17 @@
+import turtle
+turtle.Screen().setup(1920, 1080)
+turtle.Screen().bgcolor('black')
+turtle.pencolor(f"#52941f")
+for i in range(4):
+    turtle.forward(50)
+    turtle.penup()
+    turtle.stamp()
+    turtle.forward(25)
+    turtle.pendown()
+turtle.clear()
+turtle.dot(10)
+turtle.pensize(3)
+turtle.circle(80)
+turtle.reset()
+turtle.Screen().bgcolor('white')
+turtle.forward(1503)
